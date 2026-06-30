@@ -86,5 +86,5 @@ ingress:
 kongExternalService:
   enabled: true
   name: kong-proxy-ext
-  externalName: kong-kong-proxy.banking.svc.cluster.local
+  externalName: kong.banking.svc.cluster.local
   port: 8000
