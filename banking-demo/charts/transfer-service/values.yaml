@@ -14,8 +14,8 @@ transfer-service:
   secretRef:
     name: banking-db-secret
     keys:
-      databaseUrl: "http://postgres.banking.svc.cluster.local:5432"
-      redisUrl: "http://redis.banking.svc.cluster.local:6379"
+      databaseUrl: URL
+      redisUrl: URL
   # Phase 8: RABBITMQ_URL từ Secret (consumer v3)
   # rabbitmqSecretRef:
   #   name: rabbitmq-connection-secret
