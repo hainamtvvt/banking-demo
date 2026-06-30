@@ -73,18 +73,18 @@ ingress:
       pathType: Prefix
       serviceName: frontend
       servicePort: 80
-    # - path: /api
-    #   pathType: Prefix
-    #   serviceName: kong-proxy-ext
-    #   servicePort: 8000
-    # - path: /ws
-    #   pathType: Prefix
-    #   serviceName: kong-proxy-ext
-    #   servicePort: 8000
+    - path: /api
+      pathType: Prefix
+      serviceName: kong-proxy-ext
+      servicePort: 8000
+    - path: /ws
+      pathType: Prefix
+      serviceName: kong-proxy-ext
+      servicePort: 8000
 
 # ExternalName Service trỏ tới Kong proxy ở ns kong
 kongExternalService:
-  enabled: false
+  enabled: true
   name: kong-proxy-ext
-  externalName: kong-kong-proxy.kong.svc.cluster.local
+  externalName: kong-kong-proxy.banking.svc.cluster.local
   port: 8000
