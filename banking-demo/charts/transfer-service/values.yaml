@@ -14,8 +14,8 @@ transfer-service:
   secretRef:
     name: banking-db-secret
     keys:
-      databaseUrl: URL
-      redisUrl: URL
+      databaseUrl: DATABASE_URL
+      redisUrl: REDIS_URL
   # Phase 8: RABBITMQ_URL từ Secret (consumer v3)
   # rabbitmqSecretRef:
   #   name: rabbitmq-connection-secret
