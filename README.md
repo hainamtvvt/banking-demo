@@ -1,3 +1,4 @@
 # banking-demo
 
-<img width="1265" height="487" alt="image" src="https://github.com/user-attachments/assets/2a5a9c71-e65d-46ab-8c2a-a61e2853ba3f" />
+<img width="726" height="456" alt="image" src="https://github.com/user-attachments/assets/58e91ee1-3b47-4d93-80f7-3d9610019dd3" />
+
